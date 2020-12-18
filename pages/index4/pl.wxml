@@ -1,0 +1,6 @@
+<view class="User-input-group">
+  <input class="User-input"placeholder='请输入评论内容'
+   cursor-spacing="10" bindfocus="=onFocusEvent"></input>
+
+</view>
+<view class='mask' wx:if="{{mask}}"></view>

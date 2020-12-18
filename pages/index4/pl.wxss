@@ -1,0 +1,21 @@
+.User-input-group{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  padding: 20rpx;
+  border: 1px solid #a1cbf1;
+}.User-input-group .User-input{
+  font-size: 28rpx;
+  background-color:#fff ;
+}
+.mask{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top:0;
+  bottom: 0;
+  background-color:#fff ;
+  border: 1px solid #a1cbf1;
+}

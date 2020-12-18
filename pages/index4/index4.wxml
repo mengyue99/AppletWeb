@@ -1,0 +1,93 @@
+<!--pages/index4/index4.wxml-->
+<view class="User"  wx:for="{{list}}" wx:key="id">
+  <view class="User-group">
+    <view class="User-infor">
+      <image class="avatar" src="{{item.img}}">
+      </image>
+      <view class="User-right">
+        <view class="User-name">{{item.name}}</view>
+      <view class="Date">
+        <view class="time">
+          {{item.time}}
+        </view>
+      <view class="Phone">
+        {{item.Phone}}
+      </view>
+    </view>
+    </view>
+    </view>
+    <view class="content">
+      <view class="size">
+           {{item.size}}
+          </view>
+      <view class="Tu">
+        <image class="pice" src="{{item.img1}}"></image>
+        <view class="buttom">
+         
+          <view class="size1">
+            {{item.size1}}
+          </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="User-list-group">
+  <view class="User-title">评论(5)</view>
+  <view class="User"  wx:for="{{list}}" wx:key="id">
+  <view class="User-group">
+    <view class="User-infor">
+      <image class="avatar" src="https://goss2.veer.com/creative/vcg/veer/612/veer-153481797.jpg">
+      </image>
+      <view class="User-right">
+        <view class="User-name">{{item.name1}}</view>
+      <view class="Date">
+        <view class="time">
+          {{item.time}}
+        </view>
+    </view>
+    </view>
+    </view>
+    <view class="content">
+      <view class="size2">
+           {{item.size2}}
+          </view>
+  </view>
+</view>
+</view>
+</view>
+<view class="User-list-group">
+  <view class="User"  wx:for="{{list}}" wx:key="id">
+  <view class="User-group">
+    <view class="User-infor">
+      <image class="avatar" src="https://goss2.veer.com/creative/vcg/veer/612/veer-153481797.jpg">
+      </image>
+      <view class="User-right">
+        <view class="User-name">{{item.name2}}</view>
+      <view class="Date">
+        <view class="time">
+          {{item.time}}
+        </view>
+    </view>
+    </view>
+    </view>
+    <view class="content-group">好可爱，想带回家</view>
+</view>
+</view>
+</view>
+</view>
+<view class="User"  wx:for="{{list}}" wx:key="id">
+<view class="Tubiao">
+          <view class="plun">
+            <image  src="{{item.img2}}">
+           </image><navigator url="/pages/index4/pl">评论</navigator>
+          </view>
+          <view class="dzan">
+            <image  src="{{item.img3}}">
+            </image>点赞
+          </view>
+            <view class="zhuanf">
+            <image  src="{{item.img4}}">
+            </image>分享
+          </view>
+</view>
+</view>
